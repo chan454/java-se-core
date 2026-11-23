@@ -8,7 +8,7 @@ package com.chancode.sort;
  */
 public class BubbleDemo {
 
-    static void main() {
+    public static void main(String[] args) {
         int[] arr = {2, 1, 5, 3, 4};
 
         // 外层控制轮数：n 个元素最多比较 n - 1 轮，第 i 轮结束后 arr[length - 1 - i] 就位

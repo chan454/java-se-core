@@ -9,7 +9,7 @@ package com.chancode.sort;
  * 不稳定排序。
  */
 public class SelectionDemo {
-    static void main() {
+    public static void main(String[] args) {
 
         int[] arr = {2, 1, 5, 3, 4};
         // 外层控制轮数：只需为前 n-1 个位置各选出最小值，最后一个位置自然就位
